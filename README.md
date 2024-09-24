@@ -46,25 +46,25 @@ To create the necessary data model for data analysis and fulfilling business nee
 
 ![ERD](ERD.png)
 
-The SQL script that extracted the DIM_Date table can be accessed [here](SQL Scripts/DIM_Date_Cleaned.sql)
+The SQL script that extracted the DIM_Date table can be accessed [here](https://github.com/adam-grove/Sales-Dashboard-PowerBI-SQL/blob/main/SQL%20Scripts/DIM_Date_cleaned.sql)
 * Removed Columns I don't need 
 * Gave columns better labels
 * Added a month shorthand 
 * Only include dates after 2019
 
-The SQL script that extracted the DIM_Customer table can be accessed [here](SQL Scripts/DIM_Customer_Cleaned.sql)
+The SQL script that extracted the DIM_Customer table can be accessed [here](https://github.com/adam-grove/Sales-Dashboard-PowerBI-SQL/blob/main/SQL%20Scripts/DIM_Customer_cleaned.sql)
 * Removed Columns I don't need
 * Gave columns better labels
 * Combined the first and last names into "Full names"
 * Used a CASE Statment to fill in Male and Female as M and F
 * Joined in Customer City from Geography table
 
-The SQL script that extracted the DIM_Product table can be accessed [here](SQL Scripts/ProductStatus_cleaned.sql)
+The SQL script that extracted the DIM_Product table can be accessed [here](https://github.com/adam-grove/Sales-Dashboard-PowerBI-SQL/blob/main/SQL%20Scripts/DIM_ProductStatus_cleaned.sql)
 * Removed Columns I don't need
 * Added conditional to Status (ISNULL) Outdated
 * LEFT JOIN to bring in the Product Category
 * LEFT JOIN to bring in the Product Subcategory
 
-The SQL script that extracted the Fact_InternetSales can be accessed [here](SQL Scripts/FACT_InternetSales_cleaned.sql)
+The SQL script that extracted the Fact_InternetSales can be accessed [here](https://github.com/adam-grove/Sales-Dashboard-PowerBI-SQL/blob/main/SQL%20Scripts/FACT_InternetSales_cleaned.sql)
 * Removed Columns I don't need
 * Only brought in the last two years 
