@@ -37,6 +37,34 @@ Other Relevant Information:  Budgets have been delivered in Excel for 2021
 | No | As a (Role) | I want (request/demand) | So that I can (User Value) | Acceptance Crieria |
 | --- | --- | --- | --- | --- |
 | 1 | Sales Manger | To get a dashboard overview of internet sales | Can follow which customers and products sell the best | A PowerBI dashboard which updated once a day |
-| 2 | Sales Representative | A detailed overview of internet sales per customer | Can follow up my customers that buy the most and who we can sell more too | A PowerBI dashboard whichallows me to filter data for each customer |
-| 3 | Sales Representative | A detailed overview of internet sales per product | Can follow up my products that sell the most | A PowerBI dashboard whichallows me to filter data for each product  |
-| 4 | Sales Manager | A dashboad overview of internet sales | Follow sales over time against budget | A dashboard with graphs and KPIs comparing against budget |
+| 2 | Sales Representative | A detailed overview of internet sales per customer | Can follow up my customers who buy the most and who we can sell more to | A PowerBI dashboard which allows me to filter data for each customer |
+| 3 | Sales Representative | A detailed overview of internet sales per product | Can follow up my products that sell the most | A PowerBI dashboard that allows me to filter data for each product  |
+| 4 | Sales Manager | A dashboard overview of internet sales | Follow sales over time against budget | A dashboard with graphs and KPIs comparing against budget |
+
+# Data Structure 
+To create the necessary data model for data analysis and fulfilling business needs defined in the user stories, the following tables were extracted using SQL
+
+![ERD](ERD.png)
+
+The SQL script that extracted the DIM_Date table can be accessed [here](SQL Scripts/DIM_Date_Cleaned.sql)
+* Removed Columns I don't need 
+* Gave columns better labels
+* Added a month shorthand 
+* Only include dates after 2019
+
+The SQL script that extracted the DIM_Customer table can be accessed [here](SQL Scripts/DIM_Customer_Cleaned.sql)
+* Removed Columns I don't need
+* Gave columns better labels
+* Combined the first and last names into "Full names"
+* Used a CASE Statment to fill in Male and Female as M and F
+* Joined in Customer City from Geography table
+
+The SQL script that extracted the DIM_Product table can be accessed [here](SQL Scripts/ProductStatus_cleaned.sql)
+* Removed Columns I don't need
+* Added conditional to Status (ISNULL) Outdated
+* LEFT JOIN to bring in the Product Category
+* LEFT JOIN to bring in the Product Subcategory
+
+The SQL script that extracted the Fact_InternetSales can be accessed [here](SQL Scripts/FACT_InternetSales_cleaned.sql)
+* Removed Columns I don't need
+* Only brought in the last two years 
