@@ -34,7 +34,7 @@ Other Relevant Information:  Budgets have been delivered in Excel for 2021
 
 ## User stories
 
-| No | As a  | I want | So that I can (User Value) | Acceptance Crieria |
+| No | As a (Role) | I want (request/demand) | So that I can (User Value) | Acceptance Crieria |
 | --- | --- | --- | --- | --- |
 | 1 | Sales Manger | To get a dashboard overview of internet sales | Can follow which customers and products sell the best | A PowerBI dashboard which updated once a day |
 | 2 | Sales Representative | A detailed overview of internet sales per customer | Can follow up my customers that buy the most and who we can sell more too | A PowerBI dashboard whichallows me to filter data for each customer |
