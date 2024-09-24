@@ -6,7 +6,7 @@ SELECT
     [EnglishDayNameOfWeek] AS [Day],
     -- [SpanishDayNameOfWeek]
     -- [FrenchDayNameOfWeek]
-    -- [DayNumberOfMonth]   
+    -- [DayNumberOfMonth] Â  
     -- [DayNumberOfYear]
     [WeekNumberOfYear] AS [WeekNr],
     [EnglishMonthName] AS [Month],
@@ -15,7 +15,7 @@ SELECT
     -- [FrenchMonthName]
     [MonthNumberOfYear] AS [MonthNo],
     [CalendarQuarter] AS [Quarter],
-    [CalendarYear] AS [Year]   
+    [CalendarYear] AS [Year] Â  
     -- [CalendarSemester]
     -- [FiscalQuarter]
     -- [FiscalYear]
