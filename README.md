@@ -30,7 +30,7 @@ Value of Change: Visual Dashboard and improved Sales reporting
 
 Necessary Systems: PowerBI, CRM System
 
-Other Relevant Information:  Budgets have been delivered in Excel for 2021
+Other Relevant Information:  Budgets have been delivered in Excel for 2024
 
 ## User stories
 
@@ -68,3 +68,8 @@ The SQL script that extracted the DIM_Product table can be accessed [here](https
 The SQL script that extracted the Fact_InternetSales can be accessed [here](https://github.com/adam-grove/Sales-Dashboard-PowerBI-SQL/blob/main/SQL%20Scripts/FACT_InternetSales_cleaned.sql)
 * Removed Columns I don't need
 * Only brought in the last two years 
+
+# Dashboard Result
+![Sales Overview](Sales Overview.png)
+
+![Customer Details](Customer Details.png)
