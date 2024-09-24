@@ -1,3 +1,4 @@
+-- Cleaning the Product Dataset
 SELECT 
 	 p.[ProductKey]
 	,p.[ProductAlternateKey] AS ProdcutItemCode
