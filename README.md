@@ -70,6 +70,6 @@ The SQL script that extracted the Fact_InternetSales can be accessed [here](http
 * Only brought in the last two years 
 
 # Dashboard Result
-![Sales Overview](Sales Overview.png)
+![Sales Overview](Sales_Overview.png)
 
-![Customer Details](Customer Details.png)
+![Customer Details](Customer_Details.png)
