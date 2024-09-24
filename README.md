@@ -70,6 +70,8 @@ The SQL script that extracted the Fact_InternetSales can be accessed [here](http
 * Only brought in the last two years 
 
 # Dashboard Result
+The Dashboard can be accessed [here](https://app.powerbi.com/groups/me/reports/491d0a92-7580-48b0-b498-e7f753eef59e?pbi_source=desktop) 
+
 ![Sales Overview](Sales_Overview.png)
 
 ![Customer Details](Customer_Details.png)
