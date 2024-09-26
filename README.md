@@ -6,7 +6,7 @@ This project aimed to address the challenges faced by the sales team at a fictio
 
 >Hi Adam
 
->I hope you are well, we need to **improve our internet sales reports** and want to move from static reports to **visual dashboards**.Essentially, we want to focus on how much we have **sold of what products**, **to which clients** and **how it has been over time**.Seeing as each **salesperson** works on different products and customers it would be beneficial to be able to **filter them too**. We measure our numbers against **budget** so I added that in a **spreadsheet** so we can compare our values against performance. The budget is in for 2024 and we usually look **2 years back in time** when we do the analysis of sales.
+>I hope you are well, we need to **improve our internet sales reports** and want to move from static reports to **visual dashboards**. Essentially, we want to focus on how much we have **sold of what products**, **to which clients** and **how it has been over time**. Seeing as each **salesperson** works on different products and customers it would be beneficial to be able to **filter them too**. We measure our numbers against **budget** so I added that in a **spreadsheet** so we can compare our values against performance. The budget is in for 2024 and we usually look **2 years back in time** when we do the analysis of sales.
 
 >Let me know if you need anything, 
 
